@@ -72,7 +72,7 @@ def save_all():
 # ---------------------------
 # Runtime state
 # ---------------------------
-manager_app: Application | None = None
+manager_app: Optional[Application] = None
 worker_apps = []
 worker_bots = []
 awaiting_token_users = set()
